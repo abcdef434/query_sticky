@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.com/traefik_plugin/query_sticky/internal/redis"
+	"github.com/abcdef434/query_sticky/internal/redis"
 )
 
 // Config the plugin configuration.
