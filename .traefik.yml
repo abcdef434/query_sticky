@@ -1,4 +1,4 @@
-displayName: Traefik Query Sticky Plugin
+displayName: Traefik Sticky Plugin
 type: middleware
 iconPath: .assets/logo.png
 
