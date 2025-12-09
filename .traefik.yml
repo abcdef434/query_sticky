@@ -3,10 +3,12 @@ type: middleware
 iconPath: .assets/logo.png
 
 
-import: github.com/SIB-rennes/traefik_query_sticky
+import: github.com/abcdef434/query_sticky
 
 summary: 'A Traefik middleware plugin that enables sticky sessions based on a dynamic query parameter (e.g. `WOPISrc`), storing sticky data in Redis. Designed for scenarios such as Collabora or other session-sensitive services'
 
 testData:
   cookieName: whoami_session
   queryName: WOPISrc
+  headerName: WOPISrc
+  cacheKeyPrefix: "PREFIX"
